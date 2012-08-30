@@ -15,7 +15,7 @@ ln -nfs /usr/share/testrunner/testrunner.sh /usr/local/bin/testrunner
 ``` bash
 testrunner <source_code_dir> <unit_tests_dir>
 
-<source_code_dir>	Source code directory to watch"
+<source_code_dir>	Source code directory to watch
 <unit_tests_dir>	Directory with unit tests to run on every source code change
 
 ```
