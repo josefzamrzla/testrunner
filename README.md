@@ -22,8 +22,8 @@ testrunner <source_code_dir> <unit_tests_dir> [phpunit options]
 ```
 
 ### Example
-Watch directory /srv/www/my_project/ and (on every change in it) run unit tests from /srv/www/my_project/tests
-Also attach PHPUnit configuration file: /srv/www/my_project/tests/phpunit.xml and set colored output.
+Watch directory ''/srv/www/my_project/'' and (on every change in it) run unit tests from ''/srv/www/my_project/tests''
+Also attach PHPUnit configuration file: ''/srv/www/my_project/tests/phpunit.xml'' and set colored output.
 
 ```bash
 testrunner /srv/www/my_project /srv/www/my_project/tests -c /srv/www/my_project/tests/phpunit.xml --colors
