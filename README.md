@@ -1,5 +1,5 @@
 # Testrunner
-Automatic unit test runner which triggers unit tests after every change in watched directory
+Automatic PHPUnit test runner which triggers PHPUnit after every change in watched directory
 
 ### Install
 
