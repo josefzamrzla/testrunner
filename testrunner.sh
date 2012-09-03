@@ -8,7 +8,7 @@ if [ $1 ] && [ $2 ]; then
 	AP=$@
 	PU=`echo ${AP:$FPL} | sed 's/^ *//g'`
 	PU=`echo ${PU:$SPL}| sed 's/^ *//g'`
-        inotifywait -e modify -r $1
+        inotifywait -e modify,create -r $1
         phpunit $PU $2 
     done
 else
